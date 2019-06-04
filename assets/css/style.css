@@ -34,6 +34,7 @@ h2 {
 	border-bottom: 3px solid #ddd;
 }
 
+
 .links{
     float: right;
     font-family: Arial, Helvetica, sans-serif;
@@ -168,5 +169,164 @@ input[type='submit'] {
 	border:0;
 	cursor: pointer;
 }
+
+@media screen and (max-width: 980px) {
+	.container {
+		width:770px;
+		margin: 0 auto;
+
+	}
+
+	.content {
+		width:55%;
+		margin: 20px 41px 20px 0;
+		padding: 0 20px 20px 20px;
+		float: left;
+	}
+
+	.profile-image {
+		width: 200px;
+	}
+
+	.tree {
+		width: 200px;
+		float: left;
+		margin: 0 30px -20px 0;
+	}
+
+	.tree2 {
+		width: 200px;
+		float: right;
+		margin: 0 0 0 -10px;
+		
+	}
+
+	.eyes {
+		width: 200px;
+		float: left;
+		margin: 40px 30px -20px 0;
+	}
+
+	.lights {
+		width: 200px;
+		float: right;
+		margin: 20px 0 0 -10px;
+	}
+
+	input, textarea {
+		margin-bottom: 10px;
+		width: 403px;
+		padding: 5px;
+		font-size: 16px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	
+.container {
+	width: 768px;
+	margin: 0 auto;
+}
+
+div.content {
+	width: 688px;
+	margin: 20px;
+	padding: 0 20px 20px 20px;
+	float: left;
+	}	
+
+.profile-image {
+	width: 300px;
+}
+
+.tree {
+	width: 325px;
+	float: left;
+	margin: 0 30px -20px 0;
+}
+
+.tree2 {
+	width: 325px;
+	float: right;
+	margin: 0 0 0 -10px;
+	
+}
+
+.eyes {
+	width: 325px;
+	float: left;
+	margin: 50px 30px -20px 0;
+}
+
+.lights {
+	width: 325px;
+	float: right;
+	margin: 30px 0 0 -10px;
+}
+
+input, textarea {
+	margin-bottom: 10px;
+	width: 678px;
+	max-width: 678px;
+	padding: 5px;
+	font-size: 16px;
+	
+}
+
+
+}
+
+@media screen and (max-width: 640px) {
+	
+
+#name {
+	float: none;
+}
+
+#links {
+	margin: 0;
+	float:none;
+	padding: 20px 0 20px 0;
+	width:100%
+}
+
+.container {
+	width: 641px;
+	margin: 0 auto;
+}
+
+div.content {
+	width: 561px;
+	margin: 20px;
+	padding: 0 20px 20px 20px;
+	float: left;
+}
+
+.profile-image {
+	width: 558px;
+	float: none;
+	margin: 0 0 20px 0;
+	border: 1px solid #ddd;
+}
+
+.tree, .tree2, .eyes, .lights {
+	float:none;
+	margin:15px;
+	width: 525px;
+}
+
+input, textarea {
+	margin-bottom: 10px;
+		width: 548px;
+		max-width: 548px;
+		padding: 5px;
+		font-size: 16px;
+		border: 1px solid #ddd;
+	}
+}
+
+	
+
 
 
