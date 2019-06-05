@@ -34,6 +34,26 @@ h2 {
 	border-bottom: 3px solid #ddd;
 }
 
+.hangMan {
+	height: 40px;
+	width: 289px;
+	color: #fff;
+	background-color: #4aaaa5;
+	position: absolute;
+	text-align: center;
+	margin:100px 0 0 0;
+}
+
+.guess {
+	height: 40px;
+	width: 289px;
+	color: #fff;
+	background-color: #4aaaa5;
+	position: absolute;
+	text-align: center;
+	margin:130px 0 0 0;
+}
+
 
 .links{
     float: right;
@@ -127,7 +147,7 @@ html, body {
 }
 
 .tree2 {
-    width: 289px;
+	width: 289px;
 }
 
 .eyes {
